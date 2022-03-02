@@ -18,6 +18,10 @@ Système connecté (IoT):
         (DOI: 10.1016/j.ijcip.2019.100310)
             Comment gérer un service complet de livraison?
             (DOI: 10.1016/j.trc.2021.103506)
+    http://www.snastro.org/media/J-LC_GPS.PDF
+    https://en.wikipedia.org/wiki/GPS_signals#Coarse/acquisition_code
+    https://fr.wikipedia.org/wiki/Filtre_de_Kalman
+
             
 
 ### Optimisation du trafic routier & limitation de la pollution personnel:  
