@@ -1,4 +1,4 @@
-
+# Recherche général du sujet:
 
 Système connecté (IoT):
     Réseau LoraWAN
@@ -46,7 +46,7 @@ http://www.allier.gouv.fr/IMG/pdf/n145_carte_type_a_lden.pdf
 
 Gestion des vehicules electrique et des flux (suivi automatique de ligne)
 
-## Santé d'internet:  
+### Santé d'internet:  
 https://internethealthreport.org/2019/le-pouvoir-des-villes/?lang=fr
 
 ---
@@ -59,6 +59,7 @@ https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss/m2_geoposit
 https://hal.archives-ouvertes.fr/hal-03189905/document
 
 ---
+# La géolocalistion:
 
 ## Problématique:
 * Les Internet of Things (IoT) se doivent de pouvoir accèder à leur géolocalistion précise dans la ville. (Eg: tracker par exemple pour animaux, pour objets, etc).
@@ -74,5 +75,21 @@ https://hal.archives-ouvertes.fr/hal-03189905/document
 * Recherches général autour des systèmes de géoloc
 * Recherches autour du signal et des référentiel utilisé (traitement et sync) (cf. l_58, doc ENS)
 
-## Le 30/03/2022
-* 
+## Le 30/03/2022:
+#### Questions:
+* Stabilité du signal en TX et shift deviation, en RX
+* Débruitage du signal en RX cf. [1]
+* Correction de la précision cf. [2]
+* Filtrage des signaux cf.[3]
+
+
+--- 
+# Sources & références:
+[1]: http://www.snastro.org/media/J-LC_GPS.PDF
+1: http://www.snastro.org/media/J-LC_GPS.PDF
+
+[2]: https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss
+2: https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss
+
+[3]: http://www.aholme.co.uk/GPS/Main.htm
+3: http://www.aholme.co.uk/GPS/Main.htm
