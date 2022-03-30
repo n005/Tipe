@@ -58,4 +58,21 @@ http://cnig.gouv.fr/wp-content/uploads/2018/02/methodes_travail_reseau_GNSS_1302
 https://www.geologie.ens.fr/~ecalais/teaching/geopositionnement-gnss/m2_geopositionnement_2.pdf
 https://hal.archives-ouvertes.fr/hal-03189905/document
 
+---
 
+## Problématique:
+* Les Internet of Things (IoT) se doivent de pouvoir accèder à leur géolocalistion précise dans la ville. (Eg: tracker par exemple pour animaux, pour objets, etc).
+
+### Etude:
+* Sytème de géolocalisation par satellite, et optimisation de la précision (du signal, de la géoloc, résitance aux perturbation etc...)
+
+---
+
+# Historique des recherches:
+## Avant le 30/03/2022:
+* Recherches entre différents sujets
+* Recherches général autour des systèmes de géoloc
+* Recherches autour du signal et des référentiel utilisé (traitement et sync) (cf. l_58, doc ENS)
+
+## Le 30/03/2022
+* 
