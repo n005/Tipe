@@ -82,6 +82,11 @@ https://hal.archives-ouvertes.fr/hal-03189905/document
 * Correction de la précision cf. [2]
 * Filtrage des signaux cf.[3]
 
+## Le 04/04/2022:
+#### Recherche sur le débruitage du signal
+* Application aux ondelettes cf. [4]
+* Voir le fichier EURONAV.2017.7954204.pdf & le cf. [5]
+* 
 
 --- 
 # Sources & références:
@@ -93,3 +98,9 @@ https://hal.archives-ouvertes.fr/hal-03189905/document
 
 [3]: http://www.aholme.co.uk/GPS/Main.htm
 3: http://www.aholme.co.uk/GPS/Main.htm
+
+[4]: https://hal.inria.fr/hal-01361007/document
+https://hal.inria.fr/hal-01361007/document
+
+[5]: https://onlinelibrary.wiley.com/doi/10.1002/navi.300
+https://onlinelibrary.wiley.com/doi/10.1002/navi.300
