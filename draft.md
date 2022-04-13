@@ -83,10 +83,32 @@ https://hal.archives-ouvertes.fr/hal-03189905/document
 * Filtrage des signaux cf.[3]
 
 ## Le 04/04/2022:
-#### Recherche sur le débruitage du signal
+#### Recherche sur le débruitage du signal :
 * Application aux ondelettes cf. [4]
 * Voir le fichier EURONAV.2017.7954204.pdf & le cf. [5]
-* 
+#### Synthèse:
+Le débruitage du signal GPS se fait assez numériquement (utilisation d'ondelettes, et des décomposition en modes empiriques),
+difficillement expérimentable, et comparable. Je vais chercher d'avantage des thèse sur le sujet, sinon il faudra m'orienter sur autre chose 
+(par exemple, les moyen de correction, ou bien les erreurs due aux conditions atmosphèriques, ou sur le signal lui même).
+
+## Le 13/04/2022:
+#### Recherche complémentaire sur le traitement du signal :
+* Thèse à propos (+/- in french !) cf. [6] & [7] & [8]
+
+#### Recherche de sujets annexes:
+* Synchronisation des récepteurs GPS
+* Correction atomsphériques cf. [2]
+* Correction par l'usage du GPS dit différentiel (utilisation base aux sol) cf. [9]
+
+#### Idées complémentaires:
+* Modélisation numérique de perturbation atmosphérique et analyse de solution pour réduire la perte de précision liée.
+* Création d'un système simplifiée GPS (GNSS) pour étudier la synchronisation GPS et les algorithmes de correlation utilisé. cf. [1] & [2] & wikipedia English on GPS signals.
+* Implémentation d'un débruitage numérique (NB: Comment obtenir des donnés exploitables ?)
+
+#### Réception d'un signal GPS:
+* Quartz générant un signal similaire à celui du GPS reçu, correlation avec le signal réel (signal à autocorrélation très faible), calcul du différence de temps. Ce delta t, correspond à au temps satellite récepteur GPS et également le temps du au manque important de précision du quartz du récepteur GPS.
+
+#### Synthèse:
 
 --- 
 # Sources & références:
@@ -100,7 +122,23 @@ https://hal.archives-ouvertes.fr/hal-03189905/document
 3: http://www.aholme.co.uk/GPS/Main.htm
 
 [4]: https://hal.inria.fr/hal-01361007/document
-https://hal.inria.fr/hal-01361007/document
+4: https://hal.inria.fr/hal-01361007/document
 
 [5]: https://onlinelibrary.wiley.com/doi/10.1002/navi.300
-https://onlinelibrary.wiley.com/doi/10.1002/navi.300
+5: https://onlinelibrary.wiley.com/doi/10.1002/navi.300
+
+[6]: https://oatao.univ-toulouse.fr/7579/1/al_bitar.pdf
+6: https://oatao.univ-toulouse.fr/7579/1/al_bitar.pdf
+
+[7]: https://tel.archives-ouvertes.fr/tel-01589215/document
+7: https://tel.archives-ouvertes.fr/tel-01589215/document
+
+[8]: http://recherche.ign.fr/labos/lareg/pdf/Theses/these_stephane_durand_2003.pdf
+8: http://recherche.ign.fr/labos/lareg/pdf/Theses/these_stephane_durand_2003.pdf
+
+[9]: https://reseau-orpheon.fr/le-reseau-orpheon/le-positionnement-gps-gnss/
+9: https://reseau-orpheon.fr/le-reseau-orpheon/le-positionnement-gps-gnss/
+
+[10]: https://gssc.esa.int/navipedia/index.php/Main_Page
+10: https://gssc.esa.int/navipedia/index.php/Main_Page   
+(Bible de l'Esa sur les systèmes GNSS) 
