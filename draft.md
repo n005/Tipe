@@ -109,7 +109,7 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 * Quartz générant un signal similaire à celui du GPS reçu, correlation avec le signal réel (signal à autocorrélation très faible), calcul du différence de temps. Ce delta t, correspond à au temps satellite récepteur GPS et également le temps du au manque important de précision du quartz du récepteur GPS.
 
 ## Le 13/04/2022:
-#### Corrections atmosphériques, voir [11], [12], [13]
+#### Corrections atmosphériques, voir [11], [12], [13], [14]
 
 --- 
 # Sources & références:
@@ -152,3 +152,6 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 
 [13]: https://tel.archives-ouvertes.fr/tel-02979322/document
 13: https://tel.archives-ouvertes.fr/tel-02979322/document
+
+[14]: https://reseau-orpheon.fr/le-reseau-orpheon/travailler-dans-les-zones-difficiles/
+14: https://reseau-orpheon.fr/le-reseau-orpheon/travailler-dans-les-zones-difficiles/
