@@ -108,7 +108,8 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 #### Réception d'un signal GPS:
 * Quartz générant un signal similaire à celui du GPS reçu, correlation avec le signal réel (signal à autocorrélation très faible), calcul du différence de temps. Ce delta t, correspond à au temps satellite récepteur GPS et également le temps du au manque important de précision du quartz du récepteur GPS.
 
-#### Synthèse:
+## Le 13/04/2022:
+#### Corrections atmosphériques, voir [11], [12], [13]
 
 --- 
 # Sources & références:
@@ -142,3 +143,12 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 [10]: https://gssc.esa.int/navipedia/index.php/Main_Page
 10: https://gssc.esa.int/navipedia/index.php/Main_Page   
 (Bible de l'Esa sur les systèmes GNSS) 
+
+[11]: https://www.unoosa.org/pdf/icg/2017/CRASTE-LF/1_02.pdf
+11: https://www.unoosa.org/pdf/icg/2017/CRASTE-LF/1_02.pdf
+
+[12]: https://www.unoosa.org/pdf/icg/2017/CRASTE-LF/1_03.pdf
+12: https://www.unoosa.org/pdf/icg/2017/CRASTE-LF/1_03.pdf
+
+[13]: https://tel.archives-ouvertes.fr/tel-02979322/document
+13: https://tel.archives-ouvertes.fr/tel-02979322/document
