@@ -123,7 +123,7 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 #### GPS simulation, correlation et synchronisation
 * Mise en place d'un test simple
 * Système de correlation
-* Synchronisation temporelle
+* Synchronisation temporelle [15] (navigation equations) (https://electronics.stackexchange.com/questions/551458/how-does-the-4th-satellite-in-gps-know-the-time-offset)
 * Etude de la dilution géométrique et/ou temporelle
 
 
@@ -171,3 +171,6 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 
 [14]: https://reseau-orpheon.fr/le-reseau-orpheon/travailler-dans-les-zones-difficiles/
 14: https://reseau-orpheon.fr/le-reseau-orpheon/travailler-dans-les-zones-difficiles/
+
+[15]: https://www.researchgate.net/profile/Helio-Kuga/publication/43655015_Real_time_estimation_of_GPS_receiver_clock_offset_by_the_Kalman_filter/links/0912f506d94444dda9000000/Real-time-estimation-of-GPS-receiver-clock-offset-by-the-Kalman-filter.pdf?origin=publication_detail
+15: https://www.researchgate.net/profile/Helio-Kuga/publication/43655015_Real_time_estimation_of_GPS_receiver_clock_offset_by_the_Kalman_filter/links/0912f506d94444dda9000000/Real-time-estimation-of-GPS-receiver-clock-offset-by-the-Kalman-filter.pdf?origin=publication_detail
