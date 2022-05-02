@@ -108,8 +108,24 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 #### Réception d'un signal GPS:
 * Quartz générant un signal similaire à celui du GPS reçu, correlation avec le signal réel (signal à autocorrélation très faible), calcul du différence de temps. Ce delta t, correspond à au temps satellite récepteur GPS et également le temps du au manque important de précision du quartz du récepteur GPS.
 
-## Le 13/04/2022:
+## Le 27/04/2022:
 #### Corrections atmosphériques, voir [11], [12], [13], [14]
+
+## Le 02/05/2022:
+#### Lecture du document sur l'ionosphere [13]:
+* Différents modèle de l'ionosphere: 
+    * International Reference Ionosphere (IRI), simple, peu efficace quand perturbation.
+    * IPIM Irap Plasmasphere Ionosphere Model, plus complexe et fonctionne lors de vents solaires (choix du doctorant)
+* Différents modèles de propagation des ondes:
+    * Equations paraboliques (Maxwell)(Equation d'ondes)
+    * Optique géométrique (Tracé de rayons) (choix du doctorant)
+
+#### GPS simulation, correlation et synchronisation
+* Mise en place d'un test simple
+* Système de correlation
+* Synchronisation temporelle
+* Etude de la dilution géométrique et/ou temporelle
+
 
 --- 
 # Sources & références:
