@@ -126,6 +126,9 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 * Synchronisation temporelle [15] (navigation equations) (https://electronics.stackexchange.com/questions/551458/how-does-the-4th-satellite-in-gps-know-the-time-offset)
 * Etude de la dilution géométrique et/ou temporelle
 
+## Le 11/05/2022
+#### Debut d'un script sur la modélisation d'une orbite kepleriene
+Cf [16], thèse sur la résolution des équations GNSS
 
 --- 
 # Sources & références:
@@ -174,3 +177,6 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 
 [15]: https://www.researchgate.net/profile/Helio-Kuga/publication/43655015_Real_time_estimation_of_GPS_receiver_clock_offset_by_the_Kalman_filter/links/0912f506d94444dda9000000/Real-time-estimation-of-GPS-receiver-clock-offset-by-the-Kalman-filter.pdf?origin=publication_detail
 15: https://www.researchgate.net/profile/Helio-Kuga/publication/43655015_Real_time_estimation_of_GPS_receiver_clock_offset_by_the_Kalman_filter/links/0912f506d94444dda9000000/Real-time-estimation-of-GPS-receiver-clock-offset-by-the-Kalman-filter.pdf?origin=publication_detail
+
+[16]: https://tel.archives-ouvertes.fr/tel-01871943/document
+16: https://tel.archives-ouvertes.fr/tel-01871943/document
