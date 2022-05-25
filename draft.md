@@ -135,6 +135,7 @@ Cf [16], thèse sur la résolution des équations GNSS
 
 # Le 25/05/2022
 #### Finition du programme sur les orbites de keplers
+Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
 --- 
 # Sources & références:
@@ -186,3 +187,6 @@ Cf [16], thèse sur la résolution des équations GNSS
 
 [16]: https://tel.archives-ouvertes.fr/tel-01871943/document
 16: https://tel.archives-ouvertes.fr/tel-01871943/document
+
+[17]: https://en.wikipedia.org/wiki/True_anomaly
+17: https://en.wikipedia.org/wiki/True_anomaly
