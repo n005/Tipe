@@ -130,6 +130,12 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 #### Debut d'un script sur la modélisation d'une orbite kepleriene
 Cf [16], thèse sur la résolution des équations GNSS
 
+# Le 16/05/2022
+#### Avancement sur le programme
+
+# Le 25/05/2022
+#### Finition du programme sur les orbites de keplers
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
