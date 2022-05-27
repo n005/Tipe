@@ -72,10 +72,22 @@ def plot3d(*kepler):
         ax.plot(tmp[0], tmp[1], tmp[2])
     plt.show()
 
+def plot3d_wthsat(*kepler):
+    x = np.linspace(-5*np.pi, 5*np.pi, 500)
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    ax.scatter([0], [0], [0], color="g", s=100)
+    for i in kepler:
+        tmp = cartesian_3d(i[0], x)
+        ax.plot(tmp[0], tmp[1], tmp[2], linewidth=0.5)
+        tmp2 = cartesian_3d(i[0], i[1])
+        ax.scatter(tmp2[0], tmp2[1], tmp2[2], s=70)
+    plt.show()
+
 a=36000000
 e=0
 i=0
 omega=0
 pomega=0
 
-plot3d(Kepler(a,e,i,omega,pomega), Kepler(a,e,0.2,omega,pomega))
+plot3d_wthsat([Kepler(a,e,i,omega,pomega), -np.pi/3], [Kepler(a,e,0.2,omega,pomega), np.pi/2])
