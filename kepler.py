@@ -58,24 +58,24 @@ def R1(ang):
                      [0, np.cos(ang), np.sin(ang)],
                      [0, -np.sin(ang) , np.cos(ang)] ])
 
+def cartesian_3d(kepler, x):
+    tarray = np.matmul(np.matmul(np.matmul(R3(-kepler.omega), R1(-kepler.i)), R3(-kepler.pomega)),cartesian(kepler, x))
+    return tarray
+
+def plot3d(*kepler):
+    x = np.linspace(-5*np.pi, 5*np.pi, 500)
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    ax.scatter([0], [0], [0], color="g", s=100)
+    for i in kepler:
+        tmp = cartesian_3d(i, x)
+        ax.plot(tmp[0], tmp[1], tmp[2])
+    plt.show()
+
 a=36000000
-e=0.5
-i=np.pi/2
+e=0
+i=0
 omega=0
 pomega=0
-kepler=Kepler(a,e,i,omega,pomega)
 
-x = np.linspace(-5*np.pi, 5*np.pi, 500)
-
-tarray = np.matmul(np.matmul(np.matmul(R3(-omega), R1(-i)), R3(-pomega)),cartesian(kepler, x))
-
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-#ax = fig.gca(projection='3d')
-y = cartesian(kepler, x)
-ax.plot(tarray[0], tarray[1], tarray[2])
-ax.set_box_aspect(aspect = (1,1,1))
-plt.show()
-#plt.plot(tarray[0], tarray[1])
-#plt.gca().set_aspect('equal', adjustable='box')
-#plt.show()
+plot3d(Kepler(a,e,i,omega,pomega), Kepler(a,e,0.2,omega,pomega))
