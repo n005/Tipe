@@ -137,6 +137,18 @@ Cf [16], thèse sur la résolution des équations GNSS
 #### Finition du programme sur les orbites de keplers
 Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
+# Le 13/06/2022
+#### Le programme est fini. Les orbites de kepler sont parfaitement modélisée, plusieurs piste pour la suite:
+* Création d'un système de résolution par la technique des moindres carrées [16],
+* Etude des perturbations atm [13] & [12]
+* Recherche d'un sujet expérimentale, (lampe mercure). [18]
+    * Ionosphère:
+        * Ondes ralenties
+        * Polarisation
+        * Réfraction
+    * Traitement du signal (elec & autom):
+        * Reception & filtre
+        * Quatz
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
@@ -190,3 +202,6 @@ Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
 [17]: https://en.wikipedia.org/wiki/True_anomaly
 17: https://en.wikipedia.org/wiki/True_anomaly
+
+[18]: https://fr.wikipedia.org/wiki/Ionosph%C3%A8re
+18: https://fr.wikipedia.org/wiki/Ionosph%C3%A8re
