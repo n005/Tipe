@@ -149,6 +149,13 @@ Ajustement de l'équation sur l'anomalie vrai cf.[17]
     * Traitement du signal (elec & autom):
         * Reception & filtre
         * Quatz
+
+# Le 22/06/2022
+#### Impact de l'inosphere sur le GPS: (GNSS):  
+Etude des SID cf.[19]  
+Lien entre SID et erreur GNSS, cf.[20]  
+Expérience possible cf.[21]  
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
@@ -205,3 +212,12 @@ Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
 [18]: https://fr.wikipedia.org/wiki/Ionosph%C3%A8re
 18: https://fr.wikipedia.org/wiki/Ionosph%C3%A8re
+
+[19]:https://sidstation.loudet.org/antenna-fr.xhtml
+19: https://sidstation.loudet.org/antenna-fr.xhtml
+
+[20]: https://www.researchgate.net/profile/Serdjo-Kos/publication/236721806_Ionospheric_monitoring_by_correlation_between_GPS_positioning_performance_and_SID_monitor_observables/links/00b4951921da9b9d67000000/Ionospheric-monitoring-by-correlation-between-GPS-positioning-performance-and-SID-monitor-observables.pdf?origin=publication_detail
+20: https://www.researchgate.net/profile/Serdjo-Kos/publication/236721806_Ionospheric_monitoring_by_correlation_between_GPS_positioning_performance_and_SID_monitor_observables/links/00b4951921da9b9d67000000/Ionospheric-monitoring-by-correlation-between-GPS-positioning-performance-and-SID-monitor-observables.pdf?origin=publication_detail
+
+[21]: https://cedarscience.org/sites/default/files/meetings/2018/IRRI-10-Han.pdf
+21: https://cedarscience.org/sites/default/files/meetings/2018/IRRI-10-Han.pdf
