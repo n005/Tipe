@@ -161,11 +161,12 @@ Expérience possible cf.[21]
 D'après le concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), il existe un lien entre la différence de temps de deux signaux et le TEC.  
 Plus d'info, cf *"Bidaine_2009_TECGPS_IRST.pdf"* [22]  
 Calcul du TEC par smartphone, dual-band cf [23] et [24]  
-Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans la littérature scientifique, à creuser !)**
+Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans la littérature scientifique, à creuser !)**  
+Lien du CEA sur l'ionosphere (peut servir d'introduction) cf. [26]
 
 ### Partie expérimentale:
 **Deux expérience possibles:**
-* Etude qualitive du lien entre variation de la permitivité de l'ionosphere (SID) aux très ondes basse fréquences et la précision du signal GPS:
+* Etude qualitive du lien entre variation de la permitivité de l'ionosphere (SID) aux ondes très basse fréquences et la précision du signal GPS:
     * Mesure du niveau de signaux d'émetteur suffisament loin pour ne pas recevoir le signal directement (eg: DHO38 ou  le DCF77) 
     * Matériel:
         * Une antenne voir [ici](https://sidstation.loudet.org/antenna-fr.xhtml) pour la création
@@ -253,3 +254,6 @@ Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans 
 
 [25]: https://www.sport-passion.fr/test-materiel/explication-et-interet-GPS-double-frequence.php
 25: https://www.sport-passion.fr/test-materiel/explication-et-interet-GPS-double-frequence.php
+
+[26]: http://www-dase.cea.fr/public/dossiers_thematiques/atmosphere-ionosphere_perturbations_et_couplages/description.html
+26: http://www-dase.cea.fr/public/dossiers_thematiques/atmosphere-ionosphere_perturbations_et_couplages/description.html
