@@ -152,7 +152,7 @@ Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
 ## Le 22/06/2022
 #### Impact de l'ionosphere sur le GPS: (GNSS):  
-Etude des SID cf.[19]  
+Etude des SID cf.[19], [32]  
 Lien entre SID et erreur GNSS, cf.[20]  
 Expérience possible cf.[21]  
 
@@ -161,7 +161,7 @@ Expérience possible cf.[21]
 D'après le concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), il existe un lien entre la différence de temps de deux signaux et le TEC.  
 Plus d'info, cf *"Bidaine_2009_TECGPS_IRST.pdf"* [22]  
 Calcul du TEC par smartphone, dual-band cf [23] et [24]  
-Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans la littérature scientifique, à creuser !)**  
+Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans la littérature scientifique, à creuser !)**, documentation supplémentaire: [26], [27],        [28], [29], [30], [31]  
 Lien du CEA sur l'ionosphere (peut servir d'introduction) cf. [26]
 
 ### Partie expérimentale:
@@ -257,3 +257,21 @@ Lien du CEA sur l'ionosphere (peut servir d'introduction) cf. [26]
 
 [26]: http://www-dase.cea.fr/public/dossiers_thematiques/atmosphere-ionosphere_perturbations_et_couplages/description.html
 26: http://www-dase.cea.fr/public/dossiers_thematiques/atmosphere-ionosphere_perturbations_et_couplages/description.html
+
+[27]: https://onlinelibrary.wiley.com/doi/full/10.1002/navi.448
+27: https://onlinelibrary.wiley.com/doi/full/10.1002/navi.448
+
+[28]: https://www.euspa.europa.eu/newsroom/news/test-your-android-device-s-satellite-navigation-performance
+28: https://www.euspa.europa.eu/newsroom/news/test-your-android-device-s-satellite-navigation-performance
+
+[29]: https://www.geospatialworld.net/blogs/advantages-of-dual-frequency-gnss-in-smartphones/
+29: https://www.geospatialworld.net/blogs/advantages-of-dual-frequency-gnss-in-smartphones/
+
+[30]: https://www.researchgate.net/publication/267369446_Real-Time_Multipath_Estimation_for_Dual_Frequency_GPS_Ionospheric_Delay_Measurements
+30: https://www.researchgate.net/publication/267369446_Real-Time_Multipath_Estimation_for_Dual_Frequency_GPS_Ionospheric_Delay_Measurements
+
+[31]: https://mdpi-res.com/d_attachment/remotesensing/remotesensing-13-02295/article_deploy/remotesensing-13-02295-v2.pdf?version=1623739530
+31: https://mdpi-res.com/d_attachment/remotesensing/remotesensing-13-02295/article_deploy/remotesensing-13-02295-v2.pdf?version=1623739530
+
+[32]: https://www.researchgate.net/publication/312877237_An_SDR-based_Study_of_Multi-GNSS_Positioning_Performance_During_Fast-developing_Space_Weather_Storm
+32: https://www.researchgate.net/publication/312877237_An_SDR-based_Study_of_Multi-GNSS_Positioning_Performance_During_Fast-developing_Space_Weather_Storm
