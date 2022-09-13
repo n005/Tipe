@@ -130,14 +130,14 @@ difficillement expérimentable, et comparable. Je vais chercher d'avantage des t
 #### Debut d'un script sur la modélisation d'une orbite kepleriene
 Cf [16], thèse sur la résolution des équations GNSS
 
-# Le 16/05/2022
+## Le 16/05/2022
 #### Avancement sur le programme
 
-# Le 25/05/2022
+## Le 25/05/2022
 #### Finition du programme sur les orbites de keplers
 Ajustement de l'équation sur l'anomalie vrai cf.[17]
 
-# Le 13/06/2022
+## Le 13/06/2022
 #### Le programme est fini. Les orbites de kepler sont parfaitement modélisée, plusieurs piste pour la suite:
 * Création d'un système de résolution par la technique des moindres carrées [16],
 * Etude des perturbations atm [13] & [12]
@@ -150,11 +150,31 @@ Ajustement de l'équation sur l'anomalie vrai cf.[17]
         * Reception & filtre
         * Quatz
 
-# Le 22/06/2022
-#### Impact de l'inosphere sur le GPS: (GNSS):  
+## Le 22/06/2022
+#### Impact de l'ionosphere sur le GPS: (GNSS):  
 Etude des SID cf.[19]  
 Lien entre SID et erreur GNSS, cf.[20]  
 Expérience possible cf.[21]  
+
+## Le 13/09/2022
+### GNSS et Total electron content (TEC)  
+D'après le concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), il existe un lien entre la différence de temps de deux signaux et le TEC.  
+Plus d'info, cf *"Bidaine_2009_TECGPS_IRST.pdf"* [22]  
+Calcul du TEC par smartphone, dual-band cf [23] et [24]  
+Intéret du dual band: [25]  **(Ce choix de parcours semble peu documenté dans la littérature scientifique, à creuser !)**
+
+### Partie expérimentale:
+**Deux expérience possibles:**
+* Etude qualitive du lien entre variation de la permitivité de l'ionosphere (SID) aux très ondes basse fréquences et la précision du signal GPS:
+    * Mesure du niveau de signaux d'émetteur suffisament loin pour ne pas recevoir le signal directement (eg: DHO38 ou  le DCF77) 
+    * Matériel:
+        * Une antenne voir [ici](https://sidstation.loudet.org/antenna-fr.xhtml) pour la création
+        * Un recepteur GNSS (GPS) pour les mesures de position
+        * Un recepteur RTL-SDR en direct sampling pour la reception très basse fréquence (Vérification du rapport signal/bruit sur ces signaux)
+        * Un raspberry ou autre carte éléctronique permettant une veille des mesures sur plusieurs jours.
+* Etude quantitative de la différence de TEC
+    * Mesure de différence entre deux bandes de signaux à l'aide d'un smartphone, voir concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), [23] et [24]
+
 
 --- 
 # Sources & références:
@@ -221,3 +241,15 @@ Expérience possible cf.[21]
 
 [21]: https://cedarscience.org/sites/default/files/meetings/2018/IRRI-10-Han.pdf
 21: https://cedarscience.org/sites/default/files/meetings/2018/IRRI-10-Han.pdf
+
+[22]: https://www.researchgate.net/publication/224588328_Measuring_Total_Electron_Content_with_GNSS_Investigation_of_two_different_techniques
+22: https://www.researchgate.net/publication/224588328_Measuring_Total_Electron_Content_with_GNSS_Investigation_of_two_different_techniques
+
+[23]: https://www.researchgate.net/publication/344626243_Quality_analysis_of_dual-frequency_smartphone-based_ionospheric_TEC_measurements_what_can_be_achieved
+23: https://www.researchgate.net/publication/344626243_Quality_analysis_of_dual-frequency_smartphone-based_ionospheric_TEC_measurements_what_can_be_achieved
+
+[24]: https://iopscience.iop.org/article/10.1088/1742-6596/1991/1/012025/pdf
+24: https://iopscience.iop.org/article/10.1088/1742-6596/1991/1/012025/pdf
+
+[25]: https://www.sport-passion.fr/test-materiel/explication-et-interet-GPS-double-frequence.php
+25: https://www.sport-passion.fr/test-materiel/explication-et-interet-GPS-double-frequence.php
