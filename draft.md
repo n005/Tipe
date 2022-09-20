@@ -174,7 +174,12 @@ Lien du CEA sur l'ionosphere (peut servir d'introduction) cf. [26]
         * Un recepteur RTL-SDR en direct sampling pour la reception très basse fréquence (Vérification du rapport signal/bruit sur ces signaux)
         * Un raspberry ou autre carte éléctronique permettant une veille des mesures sur plusieurs jours.
 * Etude quantitative de la différence de TEC
-    * Mesure de différence entre deux bandes de signaux à l'aide d'un smartphone, voir concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), [23] et [24]
+    * Mesure de différence entre deux bandes de signaux à l'aide d'un smartphone, voir concours [E3A](https://github.com/n005/Tipe/blob/draft/2020-Concours%20e3a-Physique%20et%20Chimie-PC-enonce-2.pdf), [23] et [24]  
+
+## Le 20/09/2022
+Réalisation d'une tentative très basse fréquence (126kHz) avec un RLT-SDR, réussi !  
+Tentative d'analyser de fichiers RINEX prélevé dans le WeekEnd à l'aide d'un Xiaomi Mi 8
+Prochaine étape: Construction d'un cadre basse fréquence.  
 
 
 --- 
