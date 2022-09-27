@@ -181,6 +181,9 @@ Réalisation d'une tentative très basse fréquence (126kHz) avec un RLT-SDR, r�
 Tentative d'analyser de fichiers RINEX prélevé dans le WeekEnd à l'aide d'un Xiaomi Mi 8
 Prochaine étape: Construction d'un cadre basse fréquence.  
 
+# Le 27/09/2022
+Réalisation et exploitation des résultat RINEX (plotting sous Python).
+Recherche sur le matériel permettant la construction de l'antenne.
 
 --- 
 # Sources & références:
