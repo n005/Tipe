@@ -185,6 +185,9 @@ Prochaine étape: Construction d'un cadre basse fréquence.
 Réalisation et exploitation des résultat RINEX (plotting sous Python).
 Recherche sur le matériel permettant la construction de l'antenne.
 
+# Le 04/10/2022
+Finalisation d'un prototype d'antenne, réalisation d'un filtre dit: "notch 50Hz", puis "FM notch filters" 
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
