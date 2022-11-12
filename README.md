@@ -2,13 +2,7 @@
 TIPE 2022/2023 sur la Ville
 
 ### Le document d'avancement des recherches est ici:
-* https://github.com/n005/Tipe/blob/draft/draft.md
-
-### Le Beamer de présentation des prémisse du TIPE:
-* https://github.com/n005/Tipe/blob/draft/Beamer.pdf
-
-### Le document pour l'implémentation d'un système GPS réduit:
-* https://tel.archives-ouvertes.fr/tel-01871943/document
+* https://github.com/n005/Tipe/blob/main/projet.md
 
 \#   
 "This documents and any attachements may contain confidential or proprietary information and may be subject to laws and regulations. You are notified that any dissemination, copying of this and any attachments thereto or use of their contents by any means whatsoever is strictly prohibited. ONLY CODE IS UNDER GPL LICENSE, not DOCUMENTS"   
