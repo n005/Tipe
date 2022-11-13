@@ -24,3 +24,9 @@
 ### 5. Evaluation de l'impact des batiments sur l'amplitude de la variation de la speudo-range (ici campagne):  
 
 ![](https://github.com/n005/Tipe/blob/main/images/DSR_G30.png?raw=true)
+
+### 6. Analyse du multipath:  
+
+![](https://github.com/n005/Tipe/blob/main/images/MP_error.png?raw=true)  
+
+![](https://github.com/n005/Tipe/blob/main/images/MP_dist.png?raw=true)
