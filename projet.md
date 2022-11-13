@@ -188,6 +188,9 @@ Recherche sur le matériel permettant la construction de l'antenne.
 # Le 04/10/2022
 Finalisation d'un prototype d'antenne, réalisation d'un filtre dit: "notch 50Hz", puis "FM notch filters" 
 
+# Le 11-12-13/11/2022
+Creation de protocole d'analyse des données, comparaison du multipath en ville/campagne, TEC, utilisation de teqc et RTKlib
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
