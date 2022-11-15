@@ -191,6 +191,9 @@ Finalisation d'un prototype d'antenne, réalisation d'un filtre dit: "notch 50Hz
 # Le 11-12-13/11/2022
 Creation de protocole d'analyse des données, comparaison du multipath en ville/campagne, TEC, utilisation de teqc et RTKlib
 
+# Le 15/11/2022
+MCOT (cf. mcot.md)
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
