@@ -194,6 +194,9 @@ Creation de protocole d'analyse des données, comparaison du multipath en ville/
 # Le 15/11/2022
 MCOT (cf. mcot.md)
 
+# Le 22/11/2022
+Utilisation et modification pour le logiciel GnssLogger
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
