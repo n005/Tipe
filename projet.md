@@ -197,6 +197,9 @@ MCOT (cf. mcot.md)
 # Le 22/11/2022
 Utilisation et modification pour le logiciel GnssLogger
 
+# Le 29/11/2022
+Update MCOT
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
