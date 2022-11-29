@@ -5,7 +5,15 @@ d'incertitudes.
 
 ## Positionnement thématique (ETAPE 1) 
 
+*INFORMATIQUE (Technologies informatiques); SCIENCES INDUSTRIELLES(Électronique); PHYSIQUE(Physique Interdisciplinaire).*
+
 ## Mots-clés (ETAPE 1) 
+* GNSS,  
+* Ionosphere,
+* Multipath,
+* Kepler
+* 
+
 
 ## Bibliographie commentée 
 
@@ -40,3 +48,7 @@ villes intelligentes et durables ?
 2: https://www.mdpi.com/1424-8220/16/6/910
 
 ## DOT
+1. Compréhension d'un système GNSS,
+2. Compréhension de l'impact liée aux perturbation (ionosphere et multipath)
+3. Etude et mesure à des signaux, traitement
+4. Analyse et conclusion
