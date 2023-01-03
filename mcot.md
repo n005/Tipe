@@ -17,7 +17,10 @@ d'incertitudes.
 
 ## Bibliographie commentée 
 
-Les systèmes de géolocalisation (GNSS) sont de plus en plus présents dans les "villes intelligentes" (smarts cities), et doivent fournir des solutions aux problèmes de stationnement, d'intervention d'urgence et pour les véhicules autonomes, par exemple. Pour répondre à ces exigences, de nombreux appareils de géolocalisation ont été déployés et leur nombre a explosé, car presque tout le monde possède un smartphone avec des capteurs GNSS (4,8 millions de puces actives pour smartphone en 2018, selon Ericsson). Cependant, ces derniers semblent peu précis par rapport aux niveaux requis pour ce type d'application dans les villes intelligentes.
+Le système GNSS (Global Navigation Satellite System) est un système de géolocalisation qui utilise des satellites en orbite autour de la Terre pour permettre à des appareils sur le sol de déterminer leur position, leur vitesse et l'heure avec une très grande précision. Les systèmes GNSS les plus connus sont le GPS (Global Positioning System) des États-Unis, le GLONASS (Global Navigation Satellite System) de la Russie, le Galileo de l'Union Européenne et le BeiDou de la Chine.
+Le concept de GNSS a été développé dans les années 1950, mais le premier système opérationnel, le GPS, n'a été mis en place qu'au début des années 1980. Au départ, le GPS était principalement utilisé par l'armée américaine, mais il est rapidement devenu accessible au grand public grâce à la diffusion de récepteurs portables et intégrés dans les téléphones mobiles et les voitures. [3]
+Au fil des ans, les systèmes GNSS ont connu de nombreuses améliorations et ont été utilisés dans de nombreuses applications, allant de la navigation routière à la localisation de véhicules autonomes en passant par la météorologie et la cartographie. Ils sont également utilisés dans de nombreuses autres industries, comme l'agriculture, les transports, la construction et l'exploration pétrolière.
+Les systèmes de Les systèmes de géolocalisation (GNSS) sont de plus en plus présents dans les "villes intelligentes" (smarts cities), et doivent fournir des solutions aux problèmes de stationnement, d'intervention d'urgence et pour les véhicules autonomes, par exemple. Pour répondre à ces exigences, de nombreux appareils de géolocalisation ont été déployés et leur nombre a explosé, car presque tout le monde possède un smartphone avec des capteurs GNSS (4,8 millions de puces actives pour smartphone en 2018, selon Ericsson). Cependant, ces derniers semblent peu précis par rapport aux niveaux requis pour ce type d'application dans les villes intelligentes.
 Le système étudié sera celui de la géolocalisation par satellite (GNSS, global navigation satellite systems), les sources d'incertitudes sont nombreuses, liées soit au matériel, soit à l'environnement [1], les premières études sur le système GNSS ont été rendues possibles grâce à l'ouverture aux données brutes du système Android par Google en 2016. Avant cela, seules quelques études peu fournies ont pu être réalisées. La précision était de 3 mètres dans les meilleures conditions, et presque 10 mètres dans les pires. En 2016, Yoon et al. [2] ont réalisé une géolocalisation par GNSS différentielle et ont obtenu une augmentation de la précision de 30 à 60%. Jusqu'en mai 2018, les smartphones étaient limités par leur conception et ne pouvaient recevoir qu'une fréquence d'un satellite à la fois. Cependant, Xiaomi a lancé en 2018 un smartphone "dual-band", permettant ainsi l'étude de l'influence de la ionosphère, de réduire l'impact du multipath, etc., et ainsi d'augmenter la précision du système GNSS.
 
 ## Problématique retenue 
@@ -37,6 +40,9 @@ villes intelligentes et durables ?
 
 [2]: https://www.mdpi.com/1424-8220/16/6/910
 2: https://www.mdpi.com/1424-8220/16/6/910
+
+[3]: https://en.wikipedia.org/wiki/Satellite_navigation
+3: https://en.wikipedia.org/wiki/Satellite_navigation
 
 ## DOT
 1. Compréhension d'un système GNSS,
