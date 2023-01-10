@@ -200,6 +200,9 @@ Utilisation et modification pour le logiciel GnssLogger
 # Le 29/11/2022
 Update MCOT
 
+# Le 10/01/2023
+Essais de GNSSLOGGER
+
 --- 
 # Sources & références:
 [1]: http://www.snastro.org/media/J-LC_GPS.PDF
